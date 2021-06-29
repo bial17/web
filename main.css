@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial,sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: #333333;
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+    background-color: #599a68;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    transition: box-shadow .3s ease;
+}
+button:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+input,button{
+    font-family: inherit;
+    font-size: inherit;
+}
+form >ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+form > ul> li{
+    margin-bottom: 1em;
+}
+form label {
+    display: block;
+    margin-bottom: .2em;
+    cursor: pointer;
+}
